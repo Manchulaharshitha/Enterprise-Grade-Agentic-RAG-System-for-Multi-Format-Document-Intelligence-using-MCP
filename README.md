@@ -38,18 +38,3 @@ The system is composed of multiple agents working together:
 - OpenAI GPT models for answer generation
 - PyPDF2, python-docx for document parsing
 
----
-
-## 🚀 Installation & Setup
-
-### Prerequisites:
-- Python 3.8 or later
-- An API key for OpenAI or Groq
-
-### Steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rag-chatbot-docqa.git
-   cd rag-chatbot-docqa
-
