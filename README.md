@@ -32,6 +32,36 @@ This project addresses the challenge by building an **intelligent document assis
 * ⚡ Scalable and modular pipeline
 
 ---
+## 🖼️ Architecture Diagram
+
+### 🔍 System Flow
+
+```
+User
+  ↓
+Streamlit UI
+  ↓
+Coordinator Agent (MCP)
+  ↓
+-------------------------------
+|                             |
+↓                             ↓
+Retrieval Agent          Query Processing
+(FAISS + Embeddings)     / Reformulation
+  ↓
+Relevant Context
+  ↓
+LLM Response Agent
+  ↓
+Final Answer + Sources
+```
+
+### 🧠 Explanation
+
+* **Coordinator Agent** manages workflow using MCP
+* **Retrieval Agent** performs semantic search using FAISS
+* **LLM Agent** generates context-aware answers
+* Supports multi-format document understanding
 
 ## 🧠 System Architecture
 
